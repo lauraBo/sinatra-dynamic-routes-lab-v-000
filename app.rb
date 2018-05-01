@@ -51,5 +51,6 @@ get '/reversename/:name' do
      "error"
      
    end 
-
+  end 
+  
 end
