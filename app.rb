@@ -14,6 +14,8 @@ get '/reversename/:name' do
     number = params[:number].to_i
     sum = number*number 
     "#{sum}"
+  end
+  
   
 
 end
