@@ -48,7 +48,7 @@ get '/reversename/:name' do
      (@number1 / @number2).to_s 
      
    else 
-     
+     "error"
      
    
   
