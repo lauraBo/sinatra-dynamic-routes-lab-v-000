@@ -47,6 +47,9 @@ get '/reversename/:name' do
      when 'divide'
      (@number1 / @number2).to_s 
      
+   else 
+     
+     
    
   
   
