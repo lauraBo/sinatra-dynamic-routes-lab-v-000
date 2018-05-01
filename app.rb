@@ -10,5 +10,10 @@ get '/reversename/:name' do
   "#{@name}"
   end
   
+  get '/square/:number' do
+    number = params[:number].to_i
+    sum = number*number 
+    "#{sum}"
+  
 
 end
