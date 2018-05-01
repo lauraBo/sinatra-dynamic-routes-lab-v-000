@@ -35,7 +35,8 @@ get '/reversename/:name' do
    
    case params[:operation]
    
-   when 
+   when 'add'
+     @number1 + @number2
    
   
   
