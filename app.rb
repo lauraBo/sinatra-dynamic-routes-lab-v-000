@@ -16,6 +16,9 @@ get '/reversename/:name' do
     "#{sum}"
   end
   
-  
+  get '/say/:number/:phrase' do
+    phrase = params[:phrase]
+  number = params[:number].to_i
+  ""
 
 end
